@@ -1,0 +1,15 @@
+ARG VERSION
+
+FROM node:${VERSION} as node
+
+ENV PW=app
+
+RUN apk update \
+    && apk upgrade \
+    && apk add --no-cache git make
+
+RUN npm install -g http-server
+
+EXPOSE 4200
+
+WORKDIR /${PW}

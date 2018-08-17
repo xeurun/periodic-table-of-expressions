@@ -1,0 +1,23 @@
+version: '3.6'
+networks:
+  public:
+    external: true
+    name: public
+
+services:
+  node:
+    container_name: ${DOCKER_PROJECT_NAME}-node
+    build:
+      context: .docker
+      dockerfile: Dockerfile-node
+      args:
+        VERSION: 10-alpine
+    environment:
+      PW: app
+    entrypoint: ["http-server", "-p4200"]
+    networks:
+      - public
+    ports:
+      - 4200
+    volumes:
+      - .:/app
