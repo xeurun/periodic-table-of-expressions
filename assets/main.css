@@ -41,6 +41,7 @@ body {
     background-color: rgba(0, 128, 128, 0.6);
 }
 
+.cell .element.active,
 .cell:hover .element {
     border-color: rgba(0, 0, 0, 0.1);
     -webkit-transform: scale(3, 3);
@@ -109,12 +110,19 @@ body {
     background-color: rgba(0, 96, 160, 0.6);
 }
 
+.cell:nth-child(-n+2) .element.active,
+.cell:nth-child(n+13) .element.active,
 .cell:nth-child(-n+2):hover .element,
 .cell:nth-child(n+13):hover .element {
     background-color: rgba(0, 160, 96, 0.9);
 }
 
+.cell:nth-child(1) .element.active,
 .cell:nth-child(1):hover .element,
+.periodic-row:nth-child(2) .cell:nth-child(n+14) .element.active,
+.periodic-row:nth-child(3) .cell:nth-child(n+15) .element.active,
+.periodic-row:nth-child(4) .cell:nth-child(n+16) .element.active,
+.periodic-row:nth-child(5) .cell:nth-child(n+17) .element.active,
 .periodic-row:nth-child(2) .cell:nth-child(n+14):hover .element,
 .periodic-row:nth-child(3) .cell:nth-child(n+15):hover .element,
 .periodic-row:nth-child(4) .cell:nth-child(n+16):hover .element,
@@ -122,10 +130,12 @@ body {
     background-color: rgba(0, 192, 64, 0.9);
 }
 
+.periodic-row:nth-child(-n+6) .cell:nth-child(18) .element.active,
 .periodic-row:nth-child(-n+6) .cell:nth-child(18):hover .element {
     background-color: rgba(64, 192, 0, 0.9);
 }
 
+.periodic-row:nth-child(n+9) .cell .element.active,
 .periodic-row:nth-child(n+9) .cell:hover .element {
     background-color: rgba(0, 96, 160, 0.9);
 }
