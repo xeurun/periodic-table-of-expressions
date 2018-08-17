@@ -10,7 +10,7 @@
         "weight": 1.052
     },
     "1:18": {
-        "symbol": "Ep",
+        "symbol": "Jp",
         "title": "Экспрессо",
         "weight": 4.026
     },
@@ -210,20 +210,20 @@
         "weight": 270
     },
     "7:7": {
-        "symbol": "Cf",
+        "symbol": "Kf",
         "title": "Кофий",
         "weight": 271.13
-    },
-    "7:8": {
-        "symbol": "Cl",
-        "title": "Колабс",
-        "weight": 274.81
     },
     "8:0": {},
     "9:5": {
         "symbol": "Zu",
         "title": "Знають",
         "weight": 140.91
+    },
+    "9:7": {
+        "symbol": "Kb",
+        "title": "Колабс",
+        "weight": 274.81
     },
     "10:0": {},
     "11:3": {
