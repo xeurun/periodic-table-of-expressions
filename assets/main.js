@@ -19,6 +19,9 @@
 
                         let cell = data.cells[i + ":" + j];
                         if (cell !== undefined) {
+                            let weightNode = document.createElement('div');
+                            weightNode.className = 'at_weight';
+                            weightNode.innerText = cell.weight;
                             let elementNode = document.createElement('div');
                             elementNode.className = 'element';
                             let numNode = document.createElement('div');
@@ -31,13 +34,10 @@
                             detailsNode.className = 'at_details';
                             detailsNode.innerText = cell.title;
                             detailsNode.appendChild(document.createElement('br'));
-                            weightNode = document.createElement('span');
-                            weightNode.className = 'at_weight';
-                            weightNode.innerText = cell.weight;
                             if (activeElementHash !== undefined && activeElementHash === cell.symbol) {
                                 elementNode.className += ' active';
                             }
-                            detailsNode.appendChild(weightNode);
+                            elementNode.appendChild(weightNode);
                             elementNode.appendChild(numNode);
                             elementNode.appendChild(symbolNode);
                             elementNode.appendChild(detailsNode);
