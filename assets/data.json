@@ -5,12 +5,12 @@
   },
   "cells" : {
     "1:1": {
-        "symbol": "At",
+        "symbol": "Ar",
         "title": "Араматизатор",
         "weight": 1.052
     },
     "1:18": {
-        "symbol": "Jp",
+        "symbol": "Xp",
         "title": "Экспрессо",
         "weight": 4.026
     },
@@ -25,7 +25,7 @@
         "weight": 10.81
     },
     "2:13": {
-        "symbol": "Ss",
+        "symbol": "Sg",
         "title": "Согласин",
         "weight": 12.001
     },
@@ -45,9 +45,9 @@
         "weight": 24.305
     },
     "3:13": {
-        "symbol": "Sz",
-        "title": "Съездий",
-        "weight": 28.085
+        "symbol": "Sd",
+        "title": "Сюды",
+        "weight": 65.38
     },
     "3:14": {
         "symbol": "Td",
@@ -55,7 +55,7 @@
         "weight": 30.974
     },
     "3:15": {
-        "symbol": "Ct",
+        "symbol": "Cc",
         "title": "Чучуть",
         "weight": 32.06
     },
@@ -70,7 +70,7 @@
         "weight": 44.956
     },
     "4:4": {
-        "symbol": "Eo",
+        "symbol": "En",
         "title": "Евонный",
         "weight": 47.867
     },
@@ -80,17 +80,17 @@
         "weight": 50.942
     },
     "4:6": {
-        "symbol": "It",
-        "title": "И-тогдалие",
-        "weight": 51.996
+        "symbol": "Ib",
+        "title": "Ибокситка",
+        "weight": 95.96
     },
     "4:7": {
-        "symbol": "Kd",
+        "symbol": "Kl",
         "title": "Калидор",
         "weight": 54.938
     },
     "4:8": {
-        "symbol": "Lw",
+        "symbol": "Lu",
         "title": "Лудший",
         "weight": 55.845
     },
@@ -100,7 +100,7 @@
         "weight": 58.933
     },
     "4:10": {
-        "symbol": "On",
+        "symbol": "Od",
         "title": "Однаждый",
         "weight": 58.693
     },
@@ -110,9 +110,9 @@
         "weight": 63.546
     },
     "4:13": {
-        "symbol": "Sd",
-        "title": "Сюды",
-        "weight": 65.38
+        "symbol": "Se",
+        "title": "Съездий",
+        "weight": 28.085
     },
     "4:14": {
         "symbol": "Tg",
@@ -125,7 +125,7 @@
         "weight": 88.906
     },
     "5:4": {
-        "symbol": "Ev",
+        "symbol": "Ei",
         "title": "Евойный",
         "weight": 91.224
     },
@@ -135,32 +135,32 @@
         "weight": 92.906
     },
     "5:6": {
-        "symbol": "Ik",
-        "title": "Ибокситка",
-        "weight": 95.96
+        "symbol": "Iv",
+        "title": "Ивойный",
+        "weight": 183.84
     },
     "5:7": {
-        "symbol": "Kl",
+        "symbol": "Kz",
         "title": "Каланизация",
         "weight": 97.91
     },
     "5:8": {
-        "symbol": "Li",
+        "symbol": "Lt",
         "title": "Лутьший",
         "weight": 101.07
     },
     "5:9": {
-        "symbol": "Na",
+        "symbol": "Nb",
         "title": "Набувай",
         "weight": 102.91
     },
     "5:10": {
-        "symbol": "Ow",
+        "symbol": "On",
         "title": "Отношаемый",
         "weight": 106.42
     },
     "5:11": {
-        "symbol": "Pl",
+        "symbol": "Pe",
         "title": "Пельмений",
         "weight": 107.87
     },
@@ -175,9 +175,9 @@
         "weight": 180.95
     },
     "6:6": {
-        "symbol": "Iv",
-        "title": "Ивойный",
-        "weight": 183.84
+        "symbol": "It",
+        "title": "И-тогдалие",
+        "weight": 51.996
     },
     "6:7": {
         "symbol": "Kr",
@@ -185,12 +185,12 @@
         "weight": 186.21
     },
     "6:8": {
-        "symbol": "Lz",
+        "symbol": "Lo",
         "title": "Ложить",
         "weight": 190.23
     },
     "6:9": {
-        "symbol": "Nd",
+        "symbol": "Np",
         "title": "Нападобий",
         "weight": 182.22
     },
@@ -200,7 +200,7 @@
         "weight": 265.12
     },
     "7:5": {
-        "symbol": "Zc",
+        "symbol": "Zn",
         "title": "Значицца",
         "weight": 268.13
     },
