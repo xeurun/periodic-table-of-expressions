@@ -50,7 +50,7 @@
                                 } else {
                                     var activeElement = document.getElementsByClassName('element active')[0];
                                     if (activeElement !== undefined) {
-                                        activeElement.className = activeElement.className.replace('active', '');
+                                        activeElement.className = activeElement.className.replace(' active', '');
                                     }
                                     target.firstChild.className = target.firstChild.className + ' ' + 'active';
                                 }
