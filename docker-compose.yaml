@@ -12,12 +12,13 @@ services:
       dockerfile: Dockerfile-node
       args:
         VERSION: 10-alpine
+        HTTP_PORT: ${HTTP_PORT}
     environment:
       PW: app
-    entrypoint: ["http-server", "-p4200"]
+    entrypoint: ["http-server", "-p", $HTTP_PORT]
     networks:
       - public
     ports:
-      - 4200
+      - ${HTTP_PORT}:${HTTP_PORT}
     volumes:
       - .:/app
