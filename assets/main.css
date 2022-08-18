@@ -4,6 +4,7 @@ body {
     -ms-transform: translateZ(0);
     transform: translateZ(0);
     min-width: 440px;
+    background-color: beige;
 }
 
 .title {
